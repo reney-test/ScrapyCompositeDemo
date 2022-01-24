@@ -23,7 +23,7 @@ spec:
               value: 'http://proxypool.crawler.svc.cluster.local:5555/random'
             - name: REDIS_URL
               value: 'redis://redis.crawler.svc.cluster.local:6379'
-          image: germey/scrapycompositedemo
+          image: reneyq/scrapycompositedemo
           name: scrapycompositedemo
           resources:
             limits:
