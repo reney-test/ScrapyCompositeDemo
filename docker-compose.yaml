@@ -8,7 +8,7 @@ services:
       - "6375:6379"
   scrapycompositedemo:
     build: '.'
-    image: 'germey/scrapycompositedemo'
+    image: 'reneyq/scrapycompositedemo'
     environment:
       ACCOUNTPOOL_URL: 'http://host.docker.internal:6777/antispider7/random'
       PROXYPOOL_URL: 'http://host.docker.internal:5555/random'
